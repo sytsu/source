@@ -5,55 +5,15 @@
   "description": "Built automatically from the IPA files in sytsu's GitHub releases.",
   "website": "https://github.com/sytsu",
   "tintColor": "#8E8E93",
-  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-743572912.png",
+  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-743583753.png",
   "apps": [
-    {
-      "name": "Caterpillar",
-      "bundleIdentifier": "com.sytsu.caterpillar",
-      "developerName": "sytsu",
-      "subtitle": "Windows 11 on ARM, on iPhone and iPad",
-      "localizedDescription": "Runs Windows 11 for ARM64 with its own JIT. Bring your own Windows disk image. Needs JIT (StikDebug) and an 8 GB device for comfortable use.",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-743572912.png",
-      "tintColor": "#A8D18C",
-      "category": "utilities",
-      "website": "https://github.com/sytsu/Caterpillar",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.1",
-          "buildVersion": "3",
-          "date": "2026-11-13T12:26:29Z",
-          "localizedDescription": "**Full Changelog**: https://github.com/sytsu/Caterpillar/compare/v1.0...v1.1",
-          "downloadURL": "https://github.com/sytsu/Caterpillar/releases/download/v1.1/Caterpillar.ipa",
-          "size": 2277193,
-          "minOSVersion": "17.0"
-        },
-        {
-          "version": "1.0",
-          "buildVersion": "2",
-          "date": "2026-11-13T06:11:33Z",
-          "localizedDescription": "**Full Changelog**: https://github.com/sytsu/Caterpillar/commits/v1.0",
-          "downloadURL": "https://github.com/sytsu/Caterpillar/releases/download/v1.0/Caterpillar.ipa",
-          "size": 2257308,
-          "minOSVersion": "17.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "get-task-allow"
-        ],
-        "privacy": {
-          "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
-        }
-      }
-    },
     {
       "name": "StikContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "sytsu",
       "subtitle": "LiveContainer + SideStore with built-in StikJIT",
       "localizedDescription": "LiveContainer+SideStore nightly with built-in StikJIT JIT enabling, rebuilt automatically",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-742848872.png",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-743583753.png",
       "tintColor": "#8E8E93",
       "category": "utilities",
       "website": "https://github.com/sytsu/StikContainer",
@@ -62,10 +22,10 @@
         {
           "version": "3.8.13",
           "buildVersion": "3.8.13",
-          "date": "2026-11-13T08:13:48Z",
+          "date": "2026-11-13T12:30:06Z",
           "localizedDescription": "upstream: 9d6ea09\n\nLiveContainer+SideStore nightly 3.8.13 (upstream commit 9d6ea09) with the built-in StikJIT JIT enabler.\n\nUnsigned. Sideload it over an existing LiveContainer with the same Apple ID to update in place.",
           "downloadURL": "https://github.com/sytsu/StikContainer/releases/download/nightly/StikContainer%2BSideStore.ipa",
-          "size": 25579813,
+          "size": 25636507,
           "minOSVersion": "15.0"
         }
       ],
@@ -111,6 +71,46 @@
           "NSSiriUsageDescription": "The guest app is requesting for this permission.",
           "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
           "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
+        }
+      }
+    },
+    {
+      "name": "Caterpillar",
+      "bundleIdentifier": "com.sytsu.caterpillar",
+      "developerName": "sytsu",
+      "subtitle": "Windows 11 on ARM, on iPhone and iPad",
+      "localizedDescription": "Runs Windows 11 for ARM64 with its own JIT. Bring your own Windows disk image. Needs JIT (StikDebug) and an 8 GB device for comfortable use.",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-743572912.png",
+      "tintColor": "#A8D18C",
+      "category": "utilities",
+      "website": "https://github.com/sytsu/Caterpillar",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "3",
+          "date": "2026-11-13T12:26:29Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/sytsu/Caterpillar/compare/v1.0...v1.1",
+          "downloadURL": "https://github.com/sytsu/Caterpillar/releases/download/v1.1/Caterpillar.ipa",
+          "size": 2277193,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0",
+          "buildVersion": "2",
+          "date": "2026-11-13T06:11:33Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/sytsu/Caterpillar/commits/v1.0",
+          "downloadURL": "https://github.com/sytsu/Caterpillar/releases/download/v1.0/Caterpillar.ipa",
+          "size": 2257308,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
         }
       }
     },
