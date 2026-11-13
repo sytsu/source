@@ -5,7 +5,7 @@
   "description": "Built automatically from the IPA files in sytsu's GitHub releases.",
   "website": "https://github.com/sytsu",
   "tintColor": "#8E8E93",
-  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-742514290.png",
+  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-743572912.png",
   "apps": [
     {
       "name": "Caterpillar",
@@ -13,12 +13,21 @@
       "developerName": "sytsu",
       "subtitle": "Windows 11 on ARM, on iPhone and iPad",
       "localizedDescription": "Runs Windows 11 for ARM64 with its own JIT. Bring your own Windows disk image. Needs JIT (StikDebug) and an 8 GB device for comfortable use.",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-742514290.png",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.sytsu.caterpillar-743572912.png",
       "tintColor": "#A8D18C",
       "category": "utilities",
       "website": "https://github.com/sytsu/Caterpillar",
       "screenshots": [],
       "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "3",
+          "date": "2026-11-13T12:26:29Z",
+          "localizedDescription": "**Full Changelog**: https://github.com/sytsu/Caterpillar/compare/v1.0...v1.1",
+          "downloadURL": "https://github.com/sytsu/Caterpillar/releases/download/v1.1/Caterpillar.ipa",
+          "size": 2277193,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.0",
           "buildVersion": "2",
@@ -39,41 +48,12 @@
       }
     },
     {
-      "name": "GestaltX",
-      "bundleIdentifier": "com.huami.gestultx",
-      "developerName": "sytsu",
-      "subtitle": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "localizedDescription": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.huami.gestultx-735629280.png",
-      "tintColor": "#8E8E93",
-      "category": "utilities",
-      "website": "https://github.com/sytsu/GestaltX",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.0.5",
-          "buildVersion": "11111140",
-          "date": "2026-11-11T13:28:23Z",
-          "localizedDescription": "upstream: v1.0.5\n\nGestaltX v1.0.5 from huamidev/GestaltX with South Korea (KH) added to the region code options.\n\nUnsigned. Sideload it over the existing GestaltX to update in place.",
-          "downloadURL": "https://github.com/sytsu/GestaltX/releases/download/v1.0.5-kr/GestaltX_1.0.5-KR.ipa",
-          "size": 2943468,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups"
-        ],
-        "privacy": {}
-      }
-    },
-    {
       "name": "StikContainer",
       "bundleIdentifier": "com.kdt.livecontainer",
       "developerName": "sytsu",
       "subtitle": "LiveContainer + SideStore with built-in StikJIT",
       "localizedDescription": "LiveContainer+SideStore nightly with built-in StikJIT JIT enabling, rebuilt automatically",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-734955021.png",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-742848872.png",
       "tintColor": "#8E8E93",
       "category": "utilities",
       "website": "https://github.com/sytsu/StikContainer",
@@ -82,10 +62,10 @@
         {
           "version": "3.8.13",
           "buildVersion": "3.8.13",
-          "date": "2026-11-11T09:41:50Z",
+          "date": "2026-11-13T08:13:48Z",
           "localizedDescription": "upstream: 9d6ea09\n\nLiveContainer+SideStore nightly 3.8.13 (upstream commit 9d6ea09) with the built-in StikJIT JIT enabler.\n\nUnsigned. Sideload it over an existing LiveContainer with the same Apple ID to update in place.",
           "downloadURL": "https://github.com/sytsu/StikContainer/releases/download/nightly/StikContainer%2BSideStore.ipa",
-          "size": 25534149,
+          "size": 25579813,
           "minOSVersion": "15.0"
         }
       ],
@@ -132,6 +112,35 @@
           "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
           "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
         }
+      }
+    },
+    {
+      "name": "GestaltX",
+      "bundleIdentifier": "com.huami.gestultx",
+      "developerName": "sytsu",
+      "subtitle": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "localizedDescription": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.huami.gestultx-735629280.png",
+      "tintColor": "#8E8E93",
+      "category": "utilities",
+      "website": "https://github.com/sytsu/GestaltX",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.5",
+          "buildVersion": "11111140",
+          "date": "2026-11-11T13:28:23Z",
+          "localizedDescription": "upstream: v1.0.5\n\nGestaltX v1.0.5 from huamidev/GestaltX with South Korea (KH) added to the region code options.\n\nUnsigned. Sideload it over the existing GestaltX to update in place.",
+          "downloadURL": "https://github.com/sytsu/GestaltX/releases/download/v1.0.5-kr/GestaltX_1.0.5-KR.ipa",
+          "size": 2943468,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
       }
     }
   ],

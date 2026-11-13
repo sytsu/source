@@ -1,5 +1,31 @@
 {
- "734955021": {
+ "735629280": {
+  "buildVersion": "11111140",
+  "bundleIdentifier": "com.huami.gestultx",
+  "entitlements": [
+   "com.apple.security.application-groups"
+  ],
+  "icon": "icons/com.huami.gestultx-735629280.png",
+  "minOSVersion": "26.0",
+  "name": "GestaltX",
+  "privacy": {},
+  "version": "1.0.5"
+ },
+ "742514290": {
+  "buildVersion": "2",
+  "bundleIdentifier": "com.sytsu.caterpillar",
+  "entitlements": [
+   "get-task-allow"
+  ],
+  "icon": "icons/com.sytsu.caterpillar-742514290.png",
+  "minOSVersion": "17.0",
+  "name": "Caterpillar",
+  "privacy": {
+   "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
+  },
+  "version": "1.0"
+ },
+ "742848872": {
   "buildVersion": "3.8.13",
   "bundleIdentifier": "com.kdt.livecontainer",
   "entitlements": [
@@ -11,7 +37,7 @@
    "get-task-allow",
    "keychain-access-groups"
   ],
-  "icon": "icons/com.kdt.livecontainer-734955021.png",
+  "icon": "icons/com.kdt.livecontainer-742848872.png",
   "minOSVersion": "15.0",
   "name": "LiveContainer",
   "privacy": {
@@ -49,30 +75,18 @@
   },
   "version": "3.8.13"
  },
- "735629280": {
-  "buildVersion": "11111140",
-  "bundleIdentifier": "com.huami.gestultx",
-  "entitlements": [
-   "com.apple.security.application-groups"
-  ],
-  "icon": "icons/com.huami.gestultx-735629280.png",
-  "minOSVersion": "26.0",
-  "name": "GestaltX",
-  "privacy": {},
-  "version": "1.0.5"
- },
- "742514290": {
-  "buildVersion": "2",
+ "743572912": {
+  "buildVersion": "3",
   "bundleIdentifier": "com.sytsu.caterpillar",
   "entitlements": [
    "get-task-allow"
   ],
-  "icon": "icons/com.sytsu.caterpillar-742514290.png",
+  "icon": "icons/com.sytsu.caterpillar-743572912.png",
   "minOSVersion": "17.0",
   "name": "Caterpillar",
   "privacy": {
    "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
   },
-  "version": "1.0"
+  "version": "1.1"
  }
 }
