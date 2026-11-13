@@ -1,0 +1,18 @@
+{
+  "source": {
+    "name": "sytsu's apps",
+    "subtitle": "Every app sytsu releases on GitHub",
+    "tintColor": "#8E8E93"
+  },
+  "repos": {
+    "StikContainer": {
+      "name": "StikContainer",
+      "subtitle": "LiveContainer + SideStore with built-in StikJIT"
+    },
+    "Caterpillar": {
+      "subtitle": "Windows 11 on ARM, on iPhone and iPad",
+      "description": "Runs Windows 11 for ARM64 with its own JIT. Bring your own Windows disk image. Needs JIT (StikDebug) and an 8 GB device for comfortable use.",
+      "tintColor": "#A8D18C"
+    }
+  }
+}

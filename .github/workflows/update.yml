@@ -1,0 +1,41 @@
+name: Update source
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # hourly
+  workflow_dispatch:
+  repository_dispatch:     # lets another repository ask for an update straight after a release
+    types: [release]
+  push:
+    branches: [main]
+    paths: ["config.json", "build_source.py"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-source
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build apps.json
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 build_source.py
+
+      - name: Commit if anything changed
+        run: |
+          git add -A apps.json cache.json icons
+          if git diff --cached --quiet; then
+            echo "no changes"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Update source"
+          git push

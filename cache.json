@@ -1,0 +1,78 @@
+{
+ "734955021": {
+  "buildVersion": "3.8.13",
+  "bundleIdentifier": "com.kdt.livecontainer",
+  "entitlements": [
+   "com.apple.developer.healthkit",
+   "com.apple.developer.healthkit.access",
+   "com.apple.developer.healthkit.background-delivery",
+   "com.apple.developer.kernel.increased-memory-limit",
+   "com.apple.security.application-groups",
+   "get-task-allow",
+   "keychain-access-groups"
+  ],
+  "icon": "icons/com.kdt.livecontainer-734955021.png",
+  "minOSVersion": "15.0",
+  "name": "LiveContainer",
+  "privacy": {
+   "NSAlarmKitUsageDescription": "The guest app is requesting for this permission.",
+   "NSAppleMusicUsageDescription": "The guest app is requesting for this permission.",
+   "NSBluetoothAlwaysUsageDescription": "The guest app is requesting for this permission.",
+   "NSBluetoothPeripheralUsageDescription": "The guest app is requesting for this permission.",
+   "NSCalendarsFullAccessUsageDescription": "The guest app is requesting for this permission.",
+   "NSCalendarsWriteOnlyAccessUsageDescription": "The guest app is requesting for this permission.",
+   "NSCameraUsageDescription": "The guest app is requesting for this permission.",
+   "NSContactsUsageDescription": "The guest app is requesting for this permission.",
+   "NSFaceIDUsageDescription": "The guest app is requesting for this permission.",
+   "NSFallDetectionUsageDescription": "The guest app is requesting for this permission.",
+   "NSGKFriendListUsageDescription": "The guest app is requesting for this permission.",
+   "NSHealthClinicalHealthRecordsShareUsageDescription": "The guest app is requesting for this permission.",
+   "NSHealthShareUsageDescription": "The guest app is requesting for this permission.",
+   "NSHealthUpdateUsageDescription": "The guest app is requesting for this permission.",
+   "NSHomeKitUsageDescription": "The guest app is requesting for this permission.",
+   "NSIdentityUsageDescription": "The guest app is requesting for this permission.",
+   "NSLocalNetworkUsageDescription": "The guest app is requesting for this permission.",
+   "NSLocationAlwaysAndWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+   "NSLocationUsageDescription": "The guest app is requesting for this permission.",
+   "NSLocationWhenInUseUsageDescription": "The guest app is requesting for this permission.",
+   "NSMicrophoneUsageDescription": "The guest app is requesting for this permission.",
+   "NSMotionUsageDescription": "The guest app is requesting for this permission.",
+   "NSNearbyInteractionAllowOnceUsageDescription": "The guest app is requesting for this permission.",
+   "NSNearbyInteractionUsageDescription": "The guest app is requesting for this permission.",
+   "NSPhotoLibraryAddUsageDescription": "The guest app is requesting for this permission.",
+   "NSPhotoLibraryUsageDescription": "The guest app is requesting for this permission.",
+   "NSRemindersFullAccessUsageDescription": "The guest app is requesting for this permission.",
+   "NSSensorKitUsageDescription": "The guest app is requesting for this permission.",
+   "NSSiriUsageDescription": "The guest app is requesting for this permission.",
+   "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
+   "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
+  },
+  "version": "3.8.13"
+ },
+ "735629280": {
+  "buildVersion": "11111140",
+  "bundleIdentifier": "com.huami.gestultx",
+  "entitlements": [
+   "com.apple.security.application-groups"
+  ],
+  "icon": "icons/com.huami.gestultx-735629280.png",
+  "minOSVersion": "26.0",
+  "name": "GestaltX",
+  "privacy": {},
+  "version": "1.0.5"
+ },
+ "742514290": {
+  "buildVersion": "2",
+  "bundleIdentifier": "com.sytsu.caterpillar",
+  "entitlements": [
+   "get-task-allow"
+  ],
+  "icon": "icons/com.sytsu.caterpillar-742514290.png",
+  "minOSVersion": "17.0",
+  "name": "Caterpillar",
+  "privacy": {
+   "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
+  },
+  "version": "1.0"
+ }
+}
