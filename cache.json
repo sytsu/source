@@ -39,7 +39,22 @@
   },
   "version": "1.1"
  },
- "743583753": {
+ "750002693": {
+  "buildVersion": "11140102",
+  "bundleIdentifier": "com.huami.gestultx",
+  "entitlements": [
+   "com.apple.security.application-groups"
+  ],
+  "icon": "icons/com.huami.gestultx-750002693.png",
+  "minOSVersion": "26.0",
+  "name": "GestaltX",
+  "privacy": {
+   "NSLocalNetworkUsageDescription": "GestaltX pairs with this device over the local network to read which app plays each notification sound. Capture only runs when you start it.",
+   "NSPhotoLibraryAddUsageDescription": "Save launch images to your photo library."
+  },
+  "version": "1.1.1"
+ },
+ "750025989": {
   "buildVersion": "3.8.13",
   "bundleIdentifier": "com.kdt.livecontainer",
   "entitlements": [
@@ -51,7 +66,7 @@
    "get-task-allow",
    "keychain-access-groups"
   ],
-  "icon": "icons/com.kdt.livecontainer-743583753.png",
+  "icon": "icons/com.kdt.livecontainer-750025989.png",
   "minOSVersion": "15.0",
   "name": "LiveContainer",
   "privacy": {

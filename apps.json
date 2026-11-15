@@ -5,7 +5,7 @@
   "description": "Built automatically from the IPA files in sytsu's GitHub releases.",
   "website": "https://github.com/sytsu",
   "tintColor": "#8E8E93",
-  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-743583753.png",
+  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-750025989.png",
   "apps": [
     {
       "name": "StikContainer",
@@ -13,7 +13,7 @@
       "developerName": "sytsu",
       "subtitle": "LiveContainer + SideStore with built-in StikJIT",
       "localizedDescription": "LiveContainer+SideStore nightly with built-in StikJIT JIT enabling, rebuilt automatically",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-743583753.png",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-750025989.png",
       "tintColor": "#8E8E93",
       "category": "utilities",
       "website": "https://github.com/sytsu/StikContainer",
@@ -22,10 +22,10 @@
         {
           "version": "3.8.13",
           "buildVersion": "3.8.13",
-          "date": "2026-11-13T12:30:06Z",
+          "date": "2026-11-15T06:07:35Z",
           "localizedDescription": "upstream: 9d6ea09\n\nLiveContainer+SideStore nightly 3.8.13 (upstream commit 9d6ea09) with the built-in StikJIT JIT enabler.\n\nUnsigned. Sideload it over an existing LiveContainer with the same Apple ID to update in place.",
           "downloadURL": "https://github.com/sytsu/StikContainer/releases/download/nightly/StikContainer%2BSideStore.ipa",
-          "size": 25636507,
+          "size": 25649666,
           "minOSVersion": "15.0"
         }
       ],
@@ -75,6 +75,47 @@
       }
     },
     {
+      "name": "GestaltX",
+      "bundleIdentifier": "com.huami.gestultx",
+      "developerName": "sytsu",
+      "subtitle": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "localizedDescription": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.huami.gestultx-750002693.png",
+      "tintColor": "#8E8E93",
+      "category": "utilities",
+      "website": "https://github.com/sytsu/GestaltX",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.1.1",
+          "buildVersion": "11140102",
+          "date": "2026-11-15T05:56:42Z",
+          "localizedDescription": "upstream: v1.1.1\n\nGestaltX v1.1.1 from huamidev/GestaltX with South Korea (KH) added to the region code options.\n\nUnsigned. Sideload it over the existing GestaltX to update in place.",
+          "downloadURL": "https://github.com/sytsu/GestaltX/releases/download/v1.1.1-kr/GestaltX_1.1.1-KR.ipa",
+          "size": 6775508,
+          "minOSVersion": "26.0"
+        },
+        {
+          "version": "1.0.5",
+          "buildVersion": "11111140",
+          "date": "2026-11-11T13:28:23Z",
+          "localizedDescription": "upstream: v1.0.5\n\nGestaltX v1.0.5 from huamidev/GestaltX with South Korea (KH) added to the region code options.\n\nUnsigned. Sideload it over the existing GestaltX to update in place.",
+          "downloadURL": "https://github.com/sytsu/GestaltX/releases/download/v1.0.5-kr/GestaltX_1.0.5-KR.ipa",
+          "size": 2943468,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "GestaltX pairs with this device over the local network to read which app plays each notification sound. Capture only runs when you start it.",
+          "NSPhotoLibraryAddUsageDescription": "Save launch images to your photo library."
+        }
+      }
+    },
+    {
       "name": "Caterpillar",
       "bundleIdentifier": "com.sytsu.caterpillar",
       "developerName": "sytsu",
@@ -112,35 +153,6 @@
         "privacy": {
           "NSMicrophoneUsageDescription": "Lets apps in Windows hear the microphone."
         }
-      }
-    },
-    {
-      "name": "GestaltX",
-      "bundleIdentifier": "com.huami.gestultx",
-      "developerName": "sytsu",
-      "subtitle": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "localizedDescription": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.huami.gestultx-735629280.png",
-      "tintColor": "#8E8E93",
-      "category": "utilities",
-      "website": "https://github.com/sytsu/GestaltX",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.0.5",
-          "buildVersion": "11111140",
-          "date": "2026-11-11T13:28:23Z",
-          "localizedDescription": "upstream: v1.0.5\n\nGestaltX v1.0.5 from huamidev/GestaltX with South Korea (KH) added to the region code options.\n\nUnsigned. Sideload it over the existing GestaltX to update in place.",
-          "downloadURL": "https://github.com/sytsu/GestaltX/releases/download/v1.0.5-kr/GestaltX_1.0.5-KR.ipa",
-          "size": 2943468,
-          "minOSVersion": "26.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          "com.apple.security.application-groups"
-        ],
-        "privacy": {}
       }
     }
   ],
