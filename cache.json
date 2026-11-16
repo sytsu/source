@@ -54,8 +54,8 @@
   },
   "version": "1.1.1"
  },
- "750025989": {
-  "buildVersion": "3.8.13",
+ "753970428": {
+  "buildVersion": "3.8.14",
   "bundleIdentifier": "com.kdt.livecontainer",
   "entitlements": [
    "com.apple.developer.healthkit",
@@ -66,7 +66,7 @@
    "get-task-allow",
    "keychain-access-groups"
   ],
-  "icon": "icons/com.kdt.livecontainer-750025989.png",
+  "icon": "icons/com.kdt.livecontainer-753970428.png",
   "minOSVersion": "15.0",
   "name": "LiveContainer",
   "privacy": {
@@ -102,6 +102,6 @@
    "NSSpeechRecognitionUsageDescription": "The guest app is requesting for this permission.",
    "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
   },
-  "version": "3.8.13"
+  "version": "3.8.14"
  }
 }
