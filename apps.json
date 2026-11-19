@@ -5,7 +5,7 @@
   "description": "Built automatically from the IPA files in sytsu's GitHub releases.",
   "website": "https://github.com/sytsu",
   "tintColor": "#8E8E93",
-  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-753970428.png",
+  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-766201591.png",
   "apps": [
     {
       "name": "StikContainer",
@@ -13,7 +13,7 @@
       "developerName": "sytsu",
       "subtitle": "LiveContainer + SideStore with built-in StikJIT",
       "localizedDescription": "LiveContainer+SideStore nightly with built-in StikJIT JIT enabling, rebuilt automatically",
-      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-753970428.png",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-766201591.png",
       "tintColor": "#8E8E93",
       "category": "utilities",
       "website": "https://github.com/sytsu/StikContainer",
@@ -22,10 +22,10 @@
         {
           "version": "3.8.14",
           "buildVersion": "3.8.14",
-          "date": "2026-11-16T07:55:59Z",
-          "localizedDescription": "upstream: b7cfda6\n\nLiveContainer+SideStore nightly 3.8.14 (upstream commit b7cfda6) with the built-in StikJIT JIT enabler.\n\nUnsigned. Sideload it over an existing LiveContainer with the same Apple ID to update in place.",
+          "date": "2026-11-19T04:23:53Z",
+          "localizedDescription": "upstream: b7cfda60c39933a94d616f2a358ac2e48fd4e5cd\nupstream_version: 3.8.14\nstikjit: 2.0.1\n\nLiveContainer+SideStore nightly 3.8.14 (upstream commit b7cfda6) with the built-in StikJIT 2.0.1 JIT enabler.\n\nUnsigned. Sideload it over an existing LiveContainer with the same Apple ID to update in place.",
           "downloadURL": "https://github.com/sytsu/StikContainer/releases/download/nightly/StikContainer%2BSideStore.ipa",
-          "size": 25651646,
+          "size": 25665743,
           "minOSVersion": "15.0"
         }
       ],
