@@ -5,8 +5,35 @@
   "description": "Built automatically from the IPA files in sytsu's GitHub releases.",
   "website": "https://github.com/sytsu",
   "tintColor": "#8E8E93",
-  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/com.kdt.livecontainer-766201591.png",
+  "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/dev.sytsu.vetheuil.sandbox-773730068.png",
   "apps": [
+    {
+      "name": "Vétheuil",
+      "bundleIdentifier": "dev.sytsu.vetheuil.sandbox",
+      "developerName": "sytsu",
+      "subtitle": "Native Xcode for Claude agents",
+      "localizedDescription": "Native Xcode for Claude agents",
+      "iconURL": "https://raw.githubusercontent.com/sytsu/source/main/icons/dev.sytsu.vetheuil.sandbox-773730068.png",
+      "tintColor": "#8E8E93",
+      "category": "utilities",
+      "website": "https://github.com/sytsu/vetheuil",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.1",
+          "buildVersion": "1",
+          "date": "2026-11-20T23:32:38Z",
+          "localizedDescription": "Unsigned build of sytsu/vetheuil-sandbox at 4e7aece923d9a48e4b4fdb1ef83e63335de9b919. Sign and install with SideStore or similar.",
+          "downloadURL": "https://github.com/sytsu/vetheuil/releases/download/build-44837471682/Sandbox.ipa",
+          "size": 81410,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
     {
       "name": "StikContainer",
       "bundleIdentifier": "com.kdt.livecontainer",

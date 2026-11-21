@@ -103,5 +103,25 @@
    "NSUserTrackingUsageDescription": "The guest app is requesting for this permission."
   },
   "version": "3.8.14"
+ },
+ "773730068": {
+  "buildVersion": "1",
+  "bundleIdentifier": "dev.sytsu.vetheuil.sandbox",
+  "entitlements": [],
+  "icon": "icons/dev.sytsu.vetheuil.sandbox-773730068.png",
+  "minOSVersion": "17.0",
+  "name": "V\u00e9theuil",
+  "privacy": {},
+  "version": "0.1"
+ },
+ "773730481": {
+  "buildVersion": "1",
+  "bundleIdentifier": "dev.sytsu.vetheuil.sandbox",
+  "entitlements": [],
+  "icon": "icons/dev.sytsu.vetheuil.sandbox-773730481.png",
+  "minOSVersion": "17.0",
+  "name": "V\u00e9theuil",
+  "privacy": {},
+  "version": "0.1"
  }
 }
